@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+data/raw/
+data/processed/
+data/external/
+
+mlflow.db
+mlruns/
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+artifacts/
+src/serving/model/
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+test_mlfow.ipynb
+main.py
