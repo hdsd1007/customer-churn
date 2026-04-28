@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: himanshudhurve96/churn-app-demo:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/churn-app-demo:latest
